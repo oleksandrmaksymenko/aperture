@@ -1,0 +1,18 @@
+@import '../../styles/colors.css';
+
+.aperture-button {
+  background-color: var(--apperture-primary);
+  border: 1px solid var(--apperture-dark);
+  border-radius: 3px;
+  color: var(--apperture-text-light);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}

@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-  "target": "es6",
-    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019",
     "moduleResolution": "node",
-    "rootDir": "src",
-    "outDir": "build",
-    "lib": ["ES2022"],
-    "strict": true,
-    "esModuleInterop": true,
+    "module": "ESNext",
     "allowJs": true,
-    "checkJs": false,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-},
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": false,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "types": []
+  },
   "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "build", "dist"]
 }
